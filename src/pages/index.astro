@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Badge from '../components/badge.astro';
+import LinkedInIcon from '../components/icons/LinkedIn.astro';
+import SocialPill from '../components/icons/SocialPill.astro';
+import GitHubIcon from '../components/icons/GitHub.astro';
+import MailIcon from '../components/icons/Mail.astro';
+import SectionContainer from '../components/SectionContainer.astro';
+import Projects from '../components/Projects.astro';
+import ProjectIcon from '../components/icons/Project.astro'
+---
+
+<Layout title="Portfolio Nicolás Bock - Desarrollador y Programador web"
+description='Desarrollador web eficiente rapido y de calidad'
+>
+	 <main class="px-4">
+		<SectionContainer class="py-44 pb-24">
+			<img class="rounded-full size-12 mb-4" src="https://avatars.githubusercontent.com/u/145991542?v=4" alt="nico-foto">
+			<h1 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
+				¡Hola, soy Nicolás!
+				<a href="https://www.linkedin.com/in/nicolas-bock-a4aa92307/" target="_blank" rel="noopener" class="flex justify-center items-center">
+					<Badge>Disponible para trabajar</Badge>
+				</a>
+			</h1>
+			<h2 class="text-2xl opacity-80 text-wrap max-w-[700px]">Estudiante de <span class="" style="color: #5AC8FA;">Desarrollo de Software</span>. Soy<span class="opacity-80" style="color:rgb(72, 255, 72)"> Desarrollador Web</span>, tengo 19 años. Localizado en Santa Fe, Argentina.</h2>
+			<nav class="flex gap-4 mt-8 flex-wrap">
+				<SocialPill href="https://www.linkedin.com/in/nicolas-bock-a4aa92307/">
+					<LinkedInIcon class="w-6 h-6"/>
+					LinkedIn
+				</SocialPill>
+				<SocialPill href="https://github.com/nibockGH">
+					<GitHubIcon class="w-6 h-6"/>
+					GitHub
+				</SocialPill>
+				<SocialPill href="">
+					<MailIcon class="w-6 h-6"/>
+					nicobock15@gmail.com
+				</SocialPill>
+			</nav>
+		</SectionContainer>
+<SectionContainer id="proyecto" class="">
+	
+	<h2 class="text-2xl font-semibold mb-5 flex gap-x-2 items-center">
+		<ProjectIcon class="size-6"/>
+		Proyectos
+	</h2>
+	<Projects/>
+</SectionContainer> 
+</main>
+</Layout>

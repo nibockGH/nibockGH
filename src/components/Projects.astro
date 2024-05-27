@@ -1,0 +1,45 @@
+---
+import ProjectsItem from "./ProjectsItem.astro"
+const PROJECT = [
+ {
+    date: 'Mayo 2024',
+    title: 'Form.',
+    description: 'Survey-form',
+    link: '#',
+},
+
+{
+    date: 'Abril 2024',
+      title: 'Aplicacion de Fotos de Gatos',
+      description: 'Aplicacion para subir fotos de tu gato y completar datos acerca de el',
+      link: "https://nibockgh.github.io/CatphotoApp/",
+      target: "_blank",
+},
+
+
+{
+    date: 'Abril 2024',
+    title: 'Cafe Menú',
+    description: 'Menu de una cafeteria',
+    link: '#',
+},
+{
+   
+    date: 'Marzo 2024',
+    title: 'Diseño UI en Figma para encontrar rivales para jugar futbol',
+    description: 'Con el desarrollo de esta aplicacion podras encontrar rivales para jugar tus partidos',
+    link: '#',
+},
+]
+---
+<ol class="relative border-s border-gray-200 dark:border-gray-700 ml-3">     
+    {
+        PROJECT.map(project=>(
+        <li class="mb-10 ms-4">
+            <ProjectsItem {...project} />
+        </li>
+    ))
+    }            
+   
+</ol>
+
