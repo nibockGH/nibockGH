@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  header{
+    text-align: center;
+  }
+  
+ .pari{
+    font-weight: 600;
+ }
+  h1, h2, h3 {
+    color: #333;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  a img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    justify-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    justify-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  figure {
+    margin: 0;
+    text-align: center;
+  }
+
+  figcaption {
+    color: #666;
+    margin-top: 5px;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  legend {
+    font-weight: bold;
+    color: #333;
+  }
+
+  input[type="text"],
+  input[type="radio"],
+  input[type="checkbox"],
+  button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  input[type="text"] {
+    width: calc(100% - 22px);
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
